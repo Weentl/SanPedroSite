@@ -1,0 +1,20 @@
+# Maderas San Pedro - Robots.txt
+# https://maderassanpedro.com
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Main sitemap
+Sitemap: https://maderassanpedro.com/sitemap.xml
+
+# Important pages to crawl
+Allow: /catalogo
+Allow: /contacto
+Allow: /cotizacion
+
+# Crawl-delay to prevent server overload
+Crawl-delay: 10
+
+# Host directive (optional if you only have one domain)
+Host: maderassanpedro.com
