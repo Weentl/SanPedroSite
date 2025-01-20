@@ -1627,28 +1627,104 @@ export const products = [
       'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
   },
   {
-    id: 'cimbra-9mm-roja',
-    name: 'Cimbra de 9 mm Roja',
-    category: 'Material para Construcción',
-    subcategory: 'Cimbra',
-    description:
-      'Cimbra de 9 mm color rojo, ideal para encofrados y estructuras temporales.',
-    dimensions: '9 mm',
-    uses: ['Encofrados', 'Estructuras temporales', 'Construcción'],
-    imageUrl:
-      'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
+    "id": "cimbra-9mm-roja",
+    "name": "Cimbra de 9 mm Roja",
+    "category": "Material para Construcción",
+    "subcategory": "Cimbra",
+    "description": "Cimbra de 9 mm color rojo, ideal para encofrados y estructuras temporales.",
+    "dimensions": "9 mm",
+    "uses": ["Encofrados", "Estructuras temporales", "Construcción"],
+    "imageUrl": "https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80"
   },
   {
-    id: 'cimbra-12mm-blanca',
-    name: 'Cimbra de 12 mm Blanca',
-    category: 'Material para Construcción',
-    subcategory: 'Cimbra',
-    description:
-      'Cimbra de 12 mm color blanco, ideal para encofrados y estructuras temporales.',
-    dimensions: '12 mm',
-    uses: ['Encofrados', 'Estructuras temporales', 'Construcción'],
-    imageUrl:
-      'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
+    "id": "cimbra-9mm-blanca",
+    "name": "Cimbra de 9 mm Blanca",
+    "category": "Material para Construcción",
+    "subcategory": "Cimbra",
+    "description": "Cimbra de 9 mm color blanco, ideal para encofrados y estructuras temporales.",
+    "dimensions": "9 mm",
+    "uses": ["Encofrados", "Estructuras temporales", "Construcción"],
+    "imageUrl": "https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "cimbra-12mm-roja",
+    "name": "Cimbra de 12 mm Roja",
+    "category": "Material para Construcción",
+    "subcategory": "Cimbra",
+    "description": "Cimbra de 12 mm color rojo, ideal para encofrados y estructuras temporales.",
+    "dimensions": "12 mm",
+    "uses": ["Encofrados", "Estructuras temporales", "Construcción"],
+    "imageUrl": "https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "cimbra-12mm-blanca",
+    "name": "Cimbra de 12 mm Blanca",
+    "category": "Material para Construcción",
+    "subcategory": "Cimbra",
+    "description": "Cimbra de 12 mm color blanco, ideal para encofrados y estructuras temporales.",
+    "dimensions": "12 mm",
+    "uses": ["Encofrados", "Estructuras temporales", "Construcción"],
+    "imageUrl": "https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "cimbra-15mm-azul",
+    "name": "Cimbra de 15 mm Azul",
+    "category": "Material para Construcción",
+    "subcategory": "Cimbra",
+    "description": "Cimbra de 15 mm color azul, ideal para encofrados y estructuras temporales.",
+    "dimensions": "15 mm",
+    "uses": ["Encofrados", "Estructuras temporales", "Construcción"],
+    "imageUrl": "https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "cimbra-15mm-blanca",
+    "name": "Cimbra de 15 mm Blanca",
+    "category": "Material para Construcción",
+    "subcategory": "Cimbra",
+    "description": "Cimbra de 15 mm color blanco, ideal para encofrados y estructuras temporales.",
+    "dimensions": "15 mm",
+    "uses": ["Encofrados", "Estructuras temporales", "Construcción"],
+    "imageUrl": "https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "cimbra-15mm-roja",
+    "name": "Cimbra de 15 mm Roja",
+    "category": "Material para Construcción",
+    "subcategory": "Cimbra",
+    "description": "Cimbra de 15 mm color rojo, ideal para encofrados y estructuras temporales.",
+    "dimensions": "15 mm",
+    "uses": ["Encofrados", "Estructuras temporales", "Construcción"],
+    "imageUrl": "https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "cimbra-18mm-verde",
+    "name": "Cimbra de 18 mm Verde",
+    "category": "Material para Construcción",
+    "subcategory": "Cimbra",
+    "description": "Cimbra de 18 mm color verde, ideal para encofrados y estructuras temporales.",
+    "dimensions": "18 mm",
+    "uses": ["Encofrados", "Estructuras temporales", "Construcción"],
+    "imageUrl": "https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "cimbra-18mm-blanca",
+    "name": "Cimbra de 18 mm Blanca",
+    "category": "Material para Construcción",
+    "subcategory": "Cimbra",
+    "description": "Cimbra de 18 mm color blanco, ideal para encofrados y estructuras temporales.",
+    "dimensions": "18 mm",
+    "uses": ["Encofrados", "Estructuras temporales", "Construcción"],
+    "imageUrl": "https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "cimbra-18mm-roja",
+    "name": "Cimbra de 18 mm Roja",
+    "category": "Material para Construcción",
+    "subcategory": "Cimbra",
+    "description": "Cimbra de 18 mm color rojo, ideal para encofrados y estructuras temporales.",
+    "dimensions": "18 mm",
+    "uses": ["Encofrados", "Estructuras temporales", "Construcción"],
+    "imageUrl": "https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80"
   },
   {
     id: 'polin-3x3x8',
