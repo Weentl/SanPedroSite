@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { products } from '../data/products';
 import ProductCard from '../components/ProductCard';
-
 import WhatsAppButton from '../components/WhatsAppButton';
 import { X, ChevronDown } from 'lucide-react';
 
@@ -10,7 +9,8 @@ export default function Catalog() {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   const searchQuery = searchParams.get('search') || '';
-  const [selectedCategory, setSelectedCategory] = useState('all');
+  const categoryParam = searchParams.get('category') || 'all';
+  const [selectedCategory, setSelectedCategory] = useState(categoryParam);
   const [selectedSubcategory, setSelectedSubcategory] = useState('all');
 
   // Obtener categorías y subcategorías únicas
@@ -24,6 +24,11 @@ export default function Catalog() {
         .map((p) => p.subcategory)
     )
   );
+
+  // Actualizar la categoría seleccionada cuando cambie el parámetro de la URL
+  useEffect(() => {
+    setSelectedCategory(categoryParam);
+  }, [categoryParam]);
 
   useEffect(() => {
     if (searchQuery) {
@@ -55,6 +60,13 @@ export default function Catalog() {
 
   const clearSearch = () => {
     navigate('/catalogo');
+    setSelectedCategory('all');
+    setSelectedSubcategory('all');
+  };
+
+  const handleCategoryChange = (category: string) => {
+    setSelectedCategory(category);
+    navigate(`/catalogo?category=${encodeURIComponent(category)}`);
   };
 
   return (
@@ -91,7 +103,7 @@ export default function Catalog() {
             <div className="relative">
               <select
                 value={selectedCategory}
-                onChange={(e) => setSelectedCategory(e.target.value)}
+                onChange={(e) => handleCategoryChange(e.target.value)}
                 className="appearance-none bg-white border border-gray-300 rounded-lg px-4 py-2 pr-10 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent"
               >
                 <option value="all">Todas las categorías</option>
