@@ -1,9 +1,8 @@
 
 import { Product } from '../types/catalog';
 
-// Función para obtener la ruta de la imagen
 const getProductImage = (imageName: string): string => {
-  return `/src/data/Productos/${imageName}`;
+  return `/Productos/${imageName}`;
 };
 
 export const products: Product[] = [
