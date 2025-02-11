@@ -1,4 +1,12 @@
-export const products = [
+
+import { Product } from '../types/catalog';
+
+// Función para obtener la ruta de la imagen
+const getProductImage = (imageName: string): string => {
+  return `/src/data/Productos/${imageName}`;
+};
+
+export const products: Product[] = [
   // Triplay
   {
     id: 'triplay-caobilla-4.8-1cara',
@@ -9,8 +17,7 @@ export const products = [
       'Triplay de caobilla de 4.8 mm con acabado en una cara, ideal para muebles finos.',
     dimensions: '122x244cm x 4.8mm',
     uses: ['Muebles finos', 'Decoración interior', 'Revestimientos'],
-    imageUrl:
-      'https://codemex.mx/wp-content/uploads/2021/06/CAN-DE-MADERA-1200x1200.jpg',
+    imageUrl: getProductImage('triplay-caobilla-4.8-1cara.jpeg'),
   },
   {
     id: 'triplay-caobilla-2.8',
@@ -21,8 +28,7 @@ export const products = [
       'Triplay de caobilla de 2.8 mm, ligero y versátil, ideal para puertas y revestimientos.',
     dimensions: '122x244cm x 2.8mm',
     uses: ['Puertas', 'Revestimientos', 'Proyectos ligeros'],
-    imageUrl:
-      'public/Productos/triplay-caobilla-2.8.jpeg',
+    imageUrl: getProductImage('triplay-caobilla-2.8.jpeg')
   },
   {
     id: 'triplay-caobilla-4.8-2caras',
@@ -33,8 +39,7 @@ export const products = [
       'Triplay de caobilla de 4.8 mm con acabado en ambas caras, ideal para muebles y acabados visibles.',
     dimensions: '122x244cm x 4.8mm',
     uses: ['Muebles', 'Decoración', 'Acabados visibles'],
-    imageUrl:
-      'public/Productos/triplay-caobilla-4.8-2caras-1racara.jpeg',
+    imageUrl: getProductImage('triplay-caobilla-4.8-1cara.jpeg'),
   },
   {
     id: 'triplay-caobilla-9',
@@ -45,8 +50,7 @@ export const products = [
       'Triplay de caobilla de 9 mm, resistente y duradero, adecuado para construcción y muebles.',
     dimensions: '122x244cm x 9mm',
     uses: ['Construcción', 'Muebles', 'Revestimientos'],
-    imageUrl:
-      'public/Productos/triplay-caobilla-9.jpeg',
+    imageUrl: getProductImage('triplay-caobilla-9.jpeg'),
   },
   {
     id: 'triplay-caobilla-12',
