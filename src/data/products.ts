@@ -10,7 +10,7 @@ export const products = [
     dimensions: '122x244cm x 4.8mm',
     uses: ['Muebles finos', 'Decoración interior', 'Revestimientos'],
     imageUrl:
-      'public/Productos/triplay-caobilla-4.8-1cara.jpeg',
+      'https://codemex.mx/wp-content/uploads/2021/06/CAN-DE-MADERA-1200x1200.jpg',
   },
   {
     id: 'triplay-caobilla-2.8',
