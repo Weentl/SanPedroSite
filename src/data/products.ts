@@ -93,7 +93,7 @@ export const products: Product[] = [
       'Triplay de caobilla de 4.8 mm diseñado específicamente para puertas, ofreciendo un acabado estético.',
     dimensions: '122x244cm x 4.8mm',
     uses: ['Puertas', 'Decoración', 'Revestimientos interiores'],
-    imageUrl: getProductImage('triplay-caobilla-4.8-puerta'),
+    imageUrl: getProductImage('triplay-caobilla-4.8-puerta.jpeg'),
   },
   {
     id: 'triplay-parota-4.8',
@@ -105,7 +105,7 @@ export const products: Product[] = [
     dimensions: '122x244cm x 4.8mm',
     uses: ['Muebles exclusivos', 'Decoración', 'Acabados finos'],
     imageUrl:
-    getProductImage('triplay-parota-4.8'),
+    getProductImage('triplay-parota-4.8.jpeg'),
   },
   {
     id: 'triplay-encino-4.8',
@@ -117,7 +117,7 @@ export const products: Product[] = [
     dimensions: '122x244cm x 4.8mm',
     uses: ['Muebles elegantes', 'Acabados interiores', 'Decoración'],
     imageUrl:
-    getProductImage('triplay-encino-4.8'),
+    getProductImage('triplay-encino-4.8.jpeg'),
   },
   {
     id: 'triplay-cedro-4.8-1cara',
@@ -129,7 +129,7 @@ export const products: Product[] = [
     dimensions: '122x244cm x 4.8mm',
     uses: ['Carpintería fina', 'Muebles', 'Decoración'],
     imageUrl:
-    getProductImage('triplay-cedro-4.8'),
+    getProductImage('triplay-cedro-4.8.jpeg'),
   },
   {
     id: 'triplay-cedro-12',
