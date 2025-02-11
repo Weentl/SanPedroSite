@@ -10,7 +10,7 @@ export const products = [
     dimensions: '122x244cm x 4.8mm',
     uses: ['Muebles finos', 'Decoración interior', 'Revestimientos'],
     imageUrl:
-      'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
+      '../src/data/Productos/triplay-caobilla-4.8-1cara.jpeg',
   },
   {
     id: 'triplay-caobilla-2.8',
@@ -22,7 +22,7 @@ export const products = [
     dimensions: '122x244cm x 2.8mm',
     uses: ['Puertas', 'Revestimientos', 'Proyectos ligeros'],
     imageUrl:
-      'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
+      'src/data/Productos/triplay-caobilla-2.8.jpeg',
   },
   {
     id: 'triplay-caobilla-4.8-2caras',
@@ -34,7 +34,7 @@ export const products = [
     dimensions: '122x244cm x 4.8mm',
     uses: ['Muebles', 'Decoración', 'Acabados visibles'],
     imageUrl:
-      'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
+      'src/data/Productos/triplay-caobilla-4.8-2caras-1racara.jpeg',
   },
   {
     id: 'triplay-caobilla-9',
@@ -46,7 +46,7 @@ export const products = [
     dimensions: '122x244cm x 9mm',
     uses: ['Construcción', 'Muebles', 'Revestimientos'],
     imageUrl:
-      'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
+      'src/data/Productos/triplay-caobilla-9.jpeg',
   },
   {
     id: 'triplay-caobilla-12',
