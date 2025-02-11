@@ -60,8 +60,7 @@ export const products: Product[] = [
       'Triplay de caobilla de 12 mm, ideal para muebles robustos y proyectos de construcción.',
     dimensions: '122x244cm x 12mm',
     uses: ['Muebles robustos', 'Construcción', 'Estructuras'],
-    imageUrl:
-      'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
+    imageUrl: getProductImage('triplay-caobilla-12.jpeg'),
   },
   {
     id: 'triplay-caobilla-15',
@@ -72,8 +71,7 @@ export const products: Product[] = [
       'Triplay de caobilla de 15 mm, perfecto para proyectos que requieren mayor resistencia.',
     dimensions: '122x244cm x 15mm',
     uses: ['Muebles grandes', 'Estructuras', 'Construcción pesada'],
-    imageUrl:
-      'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
+    imageUrl: getProductImage('triplay-caobilla-15.jpeg'),
   },
   {
     id: 'triplay-caobilla-18',
@@ -84,8 +82,7 @@ export const products: Product[] = [
       'Triplay de caobilla de 18 mm, robusto y duradero, adecuado para muebles de gran tamaño y construcción.',
     dimensions: '122x244cm x 18mm',
     uses: ['Muebles de gran tamaño', 'Construcción', 'Proyectos duraderos'],
-    imageUrl:
-      'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
+    imageUrl: getProductImage('triplay-caobilla-18.jpeg'),
   },
   {
     id: 'triplay-caobilla-4.8-puerta',
@@ -96,8 +93,7 @@ export const products: Product[] = [
       'Triplay de caobilla de 4.8 mm diseñado específicamente para puertas, ofreciendo un acabado estético.',
     dimensions: '122x244cm x 4.8mm',
     uses: ['Puertas', 'Decoración', 'Revestimientos interiores'],
-    imageUrl:
-      'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
+    imageUrl: getProductImage('triplay-caobilla-4.8-puerta'),
   },
   {
     id: 'triplay-parota-4.8',
@@ -109,7 +105,7 @@ export const products: Product[] = [
     dimensions: '122x244cm x 4.8mm',
     uses: ['Muebles exclusivos', 'Decoración', 'Acabados finos'],
     imageUrl:
-      'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
+    getProductImage('triplay-parota-4.8'),
   },
   {
     id: 'triplay-encino-4.8',
@@ -121,7 +117,7 @@ export const products: Product[] = [
     dimensions: '122x244cm x 4.8mm',
     uses: ['Muebles elegantes', 'Acabados interiores', 'Decoración'],
     imageUrl:
-      'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
+    getProductImage('triplay-encino-4.8'),
   },
   {
     id: 'triplay-cedro-4.8-1cara',
@@ -133,7 +129,7 @@ export const products: Product[] = [
     dimensions: '122x244cm x 4.8mm',
     uses: ['Carpintería fina', 'Muebles', 'Decoración'],
     imageUrl:
-      'https://images.unsplash.com/photo-1610505466122-b1fe334e37e1?auto=format&fit=crop&q=80',
+    getProductImage('triplay-cedro-4.8'),
   },
   {
     id: 'triplay-cedro-12',
